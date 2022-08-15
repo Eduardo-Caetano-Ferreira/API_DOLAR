@@ -13,7 +13,7 @@
  */
 
 function teste(){
-	return file_get_contents(plugins_url().'/teste/busca.php');
+	return file_get_contents(plugins_url().'/teste/dolar.php');
 }
 
-add_shortcode("buscaCep","teste");
+add_shortcode("buscaDol","teste");
